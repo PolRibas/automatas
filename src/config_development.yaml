@@ -1,0 +1,22 @@
+paths:
+  data_dir: data/development
+  raw_data_dir: data/raw/development
+  processed_data_dir: data/processed/development
+  log_dir: logs/development
+  model_dir: models/development
+
+training:
+  num_epochs: 10
+  batch_size: 32
+  learning_rate: 0.001
+
+disks:
+  poseidon:
+    folder: /mnt/hard-disc/development
+    size: 4000
+  zeus:
+    folder: /mnt/ssd/development
+    size: 2000
+  hades:
+    folder: /mnt/m1/development
+    size: 1000

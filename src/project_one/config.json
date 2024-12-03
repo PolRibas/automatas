@@ -1,0 +1,15 @@
+{
+    "paths": {
+      "data_dir": "data",
+      "raw_data_dir": "data/raw",
+      "processed_data_dir": "data/processed",
+      "log_dir": "logs",
+      "model_dir": "models"
+    },
+    "training": {
+      "num_epochs": 10,
+      "batch_size": 32,
+      "learning_rate": 0.001
+    }
+  }
+  
