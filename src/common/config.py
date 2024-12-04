@@ -5,7 +5,6 @@ from dotenv import load_dotenv
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 load_dotenv(os.path.join(BASE_DIR, '.env'))
 ENVIRONMENT = os.getenv('ENVIRONMENT', 'development')
-print('\nUsing environment:', ENVIRONMENT, '\nFrom the directory:', BASE_DIR,'\n')
 
 config_file = f"config_{ENVIRONMENT}.yaml"
 with open(os.path.join(BASE_DIR, config_file), 'r') as f:
