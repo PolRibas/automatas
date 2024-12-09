@@ -2,7 +2,6 @@ import argparse
 from src.project_one.modulo import main as main1
 from src.project_two.modulo import main as main2
 
-
 def parse_args():
     parser = argparse.ArgumentParser(description='Choice your action.')
     parser.add_argument('accion', choices=['main1', 'main2'], help='Action to perform')

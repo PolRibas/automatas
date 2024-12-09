@@ -26,6 +26,8 @@ DISKS = config['disks']
 API_KEY = os.getenv('API_KEY')
 SECRET_KEY = os.getenv('SECRET_KEY')
 
+HUGGINGFACE_API_KEY = os.getenv('HUGGINGFACE_API_KEY')
+
 
 # Crear directorios si no existen
 def create_dirs():
