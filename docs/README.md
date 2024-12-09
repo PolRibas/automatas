@@ -12,6 +12,19 @@ pip install -r requirements.txt
 
 El proyecto utiliza un archivo de configuración para centralizar los parámetros y constantes clave.
 
+## Creación de un Entorno Virtual
+
+```bash
+source venv/bin/activate
+```
+
+## Instalación de Dependencias
+
+```bash
+pip install requests beautifulsoup4 selenium playwright
+playwright install
+```
+
 ## Archivo `config.py`
 
 Contiene las siguientes configuraciones:
